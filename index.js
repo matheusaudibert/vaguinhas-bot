@@ -3,6 +3,7 @@ import { DISCORD_TOKEN, PRESENCA, validarAmbiente } from './src/config.js';
 import { conectar, desconectar } from './src/db/mongo.js';
 import { removerGuild } from './src/db/guilds.js';
 import * as interactionCreate from './src/events/interactionCreate.js';
+import * as guildCreate from './src/events/guildCreate.js';
 import { iniciarPoller } from './src/poller.js';
 
 validarAmbiente();
@@ -18,6 +19,7 @@ const client = new Client({
 });
 
 client.on(interactionCreate.name, interactionCreate.execute);
+client.on(guildCreate.name, guildCreate.execute);
 
 client.once(Events.ClientReady, (pronto) => {
   const atividade = pronto.user.presence.activities[0];

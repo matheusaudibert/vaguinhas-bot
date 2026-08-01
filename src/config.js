@@ -47,6 +47,7 @@ export const EMOJIS = {
   salario: '<:salario:1532981838488932552>',
   modelo: '<:modelo:1532981828057563239>',
   local: '<:local:1532981837016862720>',
+  bemvindo: '<:bemvindo:1533002771719262268>',
 };
 
 // Níveis suportados. A chave é o nome do comando, o campo no Mongo e a rota.
