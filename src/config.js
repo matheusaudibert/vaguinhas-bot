@@ -34,7 +34,7 @@ export const PRESENCA = '💼 Últimas vagas';
 export const COR = 16766977;
 export const LOGO = 'https://i.postimg.cc/SxGG03nM/logo-vaguinhas.jpg';
 export const BANNER = 'https://i.postimg.cc/7Yj6NnwT/banner-vaguinhas.png';
-export const SITE = 'https://vaguinhas-1.vercel.app/';
+export const SITE = 'https://vaguinhas.audibert.dev/';
 
 // Emojis da aplicação (aba Emojis do Developer Portal, para renderizarem
 // em qualquer servidor onde o bot estiver)
