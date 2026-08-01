@@ -1,0 +1,20 @@
+{
+  "name": "vaguinhas-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord que distribui vagas de estágio, júnior, pleno e sênior nos canais configurados de cada servidor.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.3",
+    "mongodb": "^6.21.0"
+  }
+}
