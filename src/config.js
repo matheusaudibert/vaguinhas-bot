@@ -33,6 +33,7 @@ export const PRESENCA = '💼 Últimas vagas';
 // Identidade visual
 export const COR = 16766977;
 export const LOGO = 'https://i.postimg.cc/SxGG03nM/logo-vaguinhas.jpg';
+export const BANNER = 'https://i.postimg.cc/7Yj6NnwT/banner-vaguinhas.png';
 export const SITE = 'https://vaguinhas-1.vercel.app/';
 
 // Emojis da aplicação (aba Emojis do Developer Portal, para renderizarem
